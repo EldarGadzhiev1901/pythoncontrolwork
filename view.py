@@ -11,7 +11,7 @@ def error():
     return None
 
 def show_contacts(date):
-    path = 'file.md'
+    path = 'file.json'
     data = open(path, 'r')
     print(data.readlines())
     data.close()
